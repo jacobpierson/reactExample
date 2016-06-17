@@ -1,14 +1,18 @@
 import React, {PropTypes} from 'react';
 
-const Picture1 = ({src}) => {
+const Picture1 = ({image}) => {
 	const
-		mainContainer = {	};
+		mainContainer = {	
+			maxHeight: '150px',
+			maxWidth: 'auto',
+			margin: 'auto'
+
+			
+		};
 	return (
-		<div 
-		className=".img-responsive" 
-		style={mainContainer}>
-			<img src= {src}/>
-		</div>
+		
+			<img className = 'img-circle' style = {mainContainer} src= {image} />
+		
 	);
 };
 export default Picture1;

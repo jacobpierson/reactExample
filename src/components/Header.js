@@ -3,8 +3,9 @@ import React, {PropTypes} from 'react';
 const Header = ({text}) => {
 	const
 		mainContainer = {
-			color: 'skyblue',
-			fontSize: '144px'
+			fontSize: '24px',
+			textAlign: 'center'
+			
 		};
 	return (
 		<div className="jumbotron" style={mainContainer}>

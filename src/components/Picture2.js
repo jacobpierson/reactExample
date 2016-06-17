@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
 
-const Picture2 = ({src}) => {
+const Picture2 = ({src2}) => {
 	const
 		mainContainer = {	};
 	return (
